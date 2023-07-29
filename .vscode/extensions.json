@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "vincaslt.highlight-matching-tag",
+        "oderwat.indent-rainbow",
+        "esbenp.prettier-vscode"
+    ]
+}

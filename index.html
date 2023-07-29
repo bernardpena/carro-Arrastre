@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="es"> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acoplados A&L</title>
+    <link rel="icon" href="img/logo.JPG"><favicon></favicon>
+
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--iconos Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/5d4524d802.js" crossorigin="anonymous"></script>
+
+</head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+          <div class="container-fluid">
+            <a class="navbar-brand " href="index.html">Acoplados A&L</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link text-light" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#nosotros">Nosotros</a>
+                </li>
+                <li class="nav-item active dropdown">
+                  <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Servicios
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-light" href="#servicios">Carros de Arrastre</a></li>
+                    <li><a class="dropdown-item text-light" href="#servicios">Enganches</a></li>
+                    <li><a class="dropdown-item text-light" href="#servicios">Estructuras</a></li>
+                    <li><a class="dropdown-item text-light" href="#servicios">Accesorios</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#contacto">Contacto</a>
+                </li>
+              </ul>
+    
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+    <!--Carrusel-->
+    <section class="carrusel">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade g-3" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/carros/Carros/photo_23_2023-07-12_01-38-05.jpg" class=" mx-md-auto d-block w-100"  alt="carro">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/carros/Carros/photo_40_2023-07-12_01-38-05.jpg" class=" mx-md-auto d-block w-100" alt="carro">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/carros/Enganches/photo_47_2023-07-12_01-38-05.jpg" class=" mx-md-auto d-block w-100" alt="carro">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/carros/Carros/photo_41_2023-07-12_01-38-05.jpg" class=" mx-md-auto d-block w-100" alt="carro">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+    </section>
+    
+    <!--Nosotros-->
+    <section class="nosotros my-5" id="nosotros">
+      <h2 class="text-light text-center my-5 no-seleccionable" >Quiénes Somos</h2>
+      <div class="container-md">
+        <div class="row">
+          <div class=".col-sm-6">
+            <p class="texto-nosotros text-light text-end no-seleccionable">Somos una Empresa dedicada a la fabricación, asesoría y venta de carros de arrastre, en cada proyecto que afrontamos lo hacemos con mucha dedicación, profesionalismo y cariño que nace cada día para hacer de esta su EMPRESA.</p>
+          </div>
+          <div class=".col-sm-6">
+            <img src="img/logo-chico.JPG" class="logo-imagen  mx-auto d-block g-3 mb-5" alt="logo">
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!--Servicios-->
+    <section class="container servicios my-5" id="servicios">
+      <h2 class="text-light text-center my-5 no-seleccionable">Nuestros Servicios</h2>
+      <div class="row">
+
+        <!--Tarjeta N°1-->
+        <div class="col-lg-4 col-md-6 col-12 ">
+        <div class="card">
+          <img class="card-img-top" src="img/carros/Carros/photo_1_pos.jpg" alt="carros">
+          <div class="card-body">
+            <h5 class="card-title">Carro de Arrastre</h5>
+            <p class="card-text fst-normal lh-sm no-seleccionable">Se fabrican carros de arrastre para Motos, Cargas,
+              Viajes, etc. Se pueden
+              personalizar con diferentes materiales y acabados en función del cliente o proyecto.</p>
+            <a href="carros.html" class="btn btn-primary lh-sm my-1">Ir a fotos</a>
+          </div>
+        </div>
+      </div>
+
+
+
+        <!--Tarjeta N°2-->
+        <div class="col-lg-4 col-md-6 col-12 ">
+          <div class="card">
+            <img src="img/carros/Enganches/photo_4_pos.jpg" class="card-img-top" alt="enganche">
+            <div class="card-body">
+              <h5 class="card-title">Enganche</h5>
+              <p class="card-text fst-normal lh-sm no-seleccionable">Se instalan diferentes sistemas de sujeción para todo
+                tipo de carros de arrastre y se realizan conexiones eléctricas para estos.
+              </p>
+              <a href="enganche.html" class="btn btn-primary lh-sm my-1 ">Ir a fotos</a>
+            </div>
+          </div>
+        </div>
+    
+    
+        <!--Tarjeta N°3-->
+        <div class="col-lg-4 col-md-6 col-12 ">
+          <div class="card">
+            <img src="img/carros/Estructuras/photo_13_pos.jpg" class="card-img-top" alt="estructuras">
+            <div class="card-body">
+              <h5 class="card-title no-seleccionable">Estructuras</h5>
+              <p class="card-text fst-normal lh-sm no-seleccionable">Se fabrican estructuras a pedido para carros de
+                arrastre de diferentes tipos, se pueden personalizar con diferentes materiales y acabados en función del
+                cliente o proyecto.
+              </p>
+              <a href="estructuras.html" class="btn btn-primary lh-sm my-1 ">Ir a fotos</a>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <!--Contacto-->
+    <section class="contacto my-5" id="contacto">
+      <div class="container my-5">
+        <h2 class="text-light text-center my-5 no-seleccionable ">Contacto</h2>
+    
+        <form>
+          <div class="form-floating mb-3">
+            <i class="icon fa-solid fa-user-tie fa-beat fa-lg"></i>
+            <textarea class="form-control" placeholder="Ingrese Nombre y Apellido" id="floatingTextarea"
+              required></textarea>
+            <label for="floatingTextarea">Nombre</label>
+          </div>
+    
+          <div class="form-floating mb-3">
+            <i class="icon fa-solid fa-beat fa-phone"></i>
+            <input type="tel" class="form-control fa-lg" id="floatingPhone" placeholder="Ej: 123456789"
+              pattern="[0-9]{1}-[0-9]-{8};" required></input>
+            <label for="floatingPhone">Teléfono</label>
+          </div>
+    
+          <div class="form-floating mb-3">
+            <i class="icon fa-solid fa-envelope fa-beat fa-lg"></i>
+            <input type="email" class="form-control" id="floatingMail" placeholder="name@example.com" required></input>
+            <label for="floatingMail">Correo Electrónico</label>
+          </div>
+    
+          <div class="form-floating mb-5">
+            <i class="icon-textarea fa-solid fa-message fa-beat fa-lg"></i>
+            <textarea class="form-control" placeholder="Ingrese su Consulta" id="floatingTextArea" style="height: 100px;"
+              required></textarea>
+            <label for="floatingTextArea">Asunto</label>
+          </div>
+          <button type="submit" class="btn btn-primary mb-3">Submit</button>
+        </form>
+      </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+  </body>
+  <!--Pie de Pagina-->
+  <footer>
+    <section class="footer my-5" id="footer">
+      <div class="container my-5">
+        <hr class="divider"></hr>
+        <p class="large text-light text-center my-5 no-seleccionable">&copy;Todos los derechos Reservados :: by Bernardo5 :: Chile 2023</p>
+      </div>
+    </section>
+  </footer>
+</html>
