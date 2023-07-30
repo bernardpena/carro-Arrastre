@@ -184,34 +184,39 @@
       <div class="container my-5">
         <h2 class="text-light text-center my-5 no-seleccionable ">Contacto</h2>
     
-        <form>
+        <form action="https://formsubmit.co/bernardpena@gmail.com" method="POST">
           <div class="form-floating mb-3">
             <i class="icon fa-solid fa-user-tie fa-beat fa-lg"></i>
-            <textarea class="form-control" placeholder="Ingrese Nombre y Apellido" id="floatingTextarea"
+            <textarea class="form-control" name="name" placeholder="Ingrese Nombre y Apellido" id="floatingTextarea"
               required></textarea>
             <label for="floatingTextarea">Nombre</label>
           </div>
     
           <div class="form-floating mb-3">
             <i class="icon fa-solid fa-beat fa-phone"></i>
-            <input type="tel" class="form-control fa-lg" id="floatingPhone" placeholder="Ej: 123456789"
-              pattern="[0-9]{1}-[0-9]-{8};" required></input>
+            <input type="tel" class="form-control fa-lg" name="phone" id="floatingPhone" placeholder="Ej: 123456789" required></input>
             <label for="floatingPhone">Teléfono</label>
           </div>
     
           <div class="form-floating mb-3">
             <i class="icon fa-solid fa-envelope fa-beat fa-lg"></i>
-            <input type="email" class="form-control" id="floatingMail" placeholder="name@example.com" required></input>
+            <input type="email" class="form-control"  name="email" id="floatingMail" placeholder="name@example.com" required></input>
             <label for="floatingMail">Correo Electrónico</label>
           </div>
     
           <div class="form-floating mb-5">
             <i class="icon-textarea fa-solid fa-message fa-beat fa-lg"></i>
-            <textarea class="form-control" placeholder="Ingrese su Consulta" id="floatingTextArea" style="height: 100px;"
+            <textarea class="form-control" name="comentarios"  placeholder="Ingrese su Consulta" id="floatingTextArea" style="height: 100px;"
               required></textarea>
             <label for="floatingTextArea">Asunto</label>
           </div>
           <button type="submit" class="btn btn-primary mb-3">Submit</button>
+          <input type="hidden" name="_template" value="box">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_autoresponse" value="Responderemos pronto a su mensaje">
+          
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500">
+          
         </form>
       </div>
     </section>

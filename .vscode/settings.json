@@ -19,12 +19,15 @@
         "Arrastre",
         "asesoría",
         "Asunto",
+        "autoresponse",
         "Awesone",
         "cargas",
         "cariño",
         "carro",
         "Carros",
+        "Carrusel",
         "Clientes",
+        "comentarios",
         "conexiones",
         "Consulta",
         "Contacto",
@@ -57,6 +60,7 @@
         "Ingrese",
         "instalan",
         "materiales",
+        "mensaje",
         "Motos",
         "mucha",
         "nace",
@@ -72,7 +76,9 @@
         "Quiénes",
         "Realizados",
         "realizan",
+        "recibido",
         "Reservados",
+        "Responderemos",
         "seleccionable",
         "seleccionar",
         "Servicios",
@@ -89,6 +95,7 @@
         "Trabajos",
         "venden",
         "venta",
-        "viajes"
+        "viajes",
+        "Volver"
     ]
 }
