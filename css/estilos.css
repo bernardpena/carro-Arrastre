@@ -6,6 +6,10 @@
    user-select: none; 
 }
 
+ 
+body {
+   padding-top: 20px;
+}
 .navbar-brand {
    font-weight: bold;
    font-size: 2rem;
@@ -23,6 +27,13 @@ footer {
    background: black;
 }
 
+/*index*/
+ .navbar .container-fluid {
+   background: black;
+}
+.navbar-expand-lg {
+   background: black;
+}
 
 /*nosotros*/
 .nosotros {
