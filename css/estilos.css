@@ -35,6 +35,11 @@ footer {
    background: black;
 }
 
+/*carusel*/
+ img .img-logo {
+   height: 2.5rem;
+}
+
 /*nosotros*/
 .nosotros {
    text-align: justify;
