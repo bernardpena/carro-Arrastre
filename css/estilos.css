@@ -35,11 +35,6 @@ footer {
    background: black;
 }
 
-/*carusel*/
- img .img-logo {
-   height: 2.5rem;
-}
-
 /*nosotros*/
 .nosotros {
    text-align: justify;
@@ -116,6 +111,7 @@ footer {
    height: 250px;
    margin: 0 !important;
 }
+/*servicios*/
 
 
 /*Contacto*/
@@ -144,6 +140,7 @@ footer {
    top: 1.9rem;
    left: 0.8rem;
 }
+/*Contacto*/
 
 /*footer*/
 .footer .divider  {
@@ -152,6 +149,7 @@ footer {
    padding: 0;
    margin: 20px auto 0 auto;
 }
+/*footer*/
 
 /*galería de fotos*/
 #galeria .col-lg-4 {
@@ -167,3 +165,4 @@ footer {
 #galeria img:hover {
    border: 5px solid #f7f7f7;
 }
+/*galería de fotos*/
