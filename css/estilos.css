@@ -8,11 +8,14 @@
 
  
 body {
-   padding-top: 20px;
+   /* padding-top: 5px; */
+}
+.navbar {
+   padding-top: 0px;
 }
 .navbar-brand {
    font-weight: bold;
-   font-size: 2rem;
+   font-size: 1.5rem;
 }
 
 header  {
@@ -28,16 +31,40 @@ footer {
 }
 
 /*index*/
- .navbar .container-fluid {
-   background: black;
+
+.navbar {
+   transition: all 0.5s;
 }
-.navbar-expand-lg {
+
+.navbar .container-fluid {
    background: black;
 }
 
+.carrusel {
+   padding-top: 49px;
+
+} 
+
+/* nav {
+   background-color: rgba(0, 0, 0); 
+   background-color: rgba(0, 0, 0, 0.5);
+} 
+
+.navbar .container-fluid .navbar-brand .navbar-expand-lg {
+   background-color: rgba(0, 0, 0); 
+   background-color: rgba(0, 0, 0, 0.5);
+}  */
+
+/*Barra Transparente
+.navbar-scrolled navbar-brand{
+   background-color: black;
+   box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+   color: black;
+}*/
+
+
 /*nosotros*/
 .nosotros {
-   text-align: justify;
    line-height: 2em;
    padding-top: 20px;
 }
@@ -50,7 +77,6 @@ footer {
 .texto-nosotros {
    padding-top: 30px;
    font-size: 1.5rem;
-   justify-content: flex-start;
    align-items: center;
 }
 
