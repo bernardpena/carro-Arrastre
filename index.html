@@ -25,12 +25,14 @@
     <!--Cabecera-->
     <header>
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top " data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top navbar-collapse-end " data-bs-theme="dark">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Acoplados A&L</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            <button class="navbar-toggler collapsed d-flex d-lg-none d-md-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span class="toggler-icon top-bar no-seleccionable"></span>
+              <span class="toggler-icon middle-bar no-seleccionable"></span>
+              <span class="toggler-icon bottom-bar no-seleccionable"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -46,10 +48,10 @@
                     Servicios
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item text-light" href="carros.html"><i class="fa-solid fa-trailer"></i>  Carros de Arrastre</a></li>
-                    <li><a class="dropdown-item text-light" href="enganche.html"><i class="fa-solid fa-bore-hole"></i>  Enganches</a></li>
-                    <li><a class="dropdown-item text-light" href="estructuras.html"><i class="fa-solid fa-truck-ramp-box"></i>  Estructuras</a></li>
-                    <li><a class="dropdown-item text-light" href="accesorios.html"><i class="fa-solid fa-screwdriver-wrench"></i>  Accesorios</a></li>
+                    <li><a class="dropdown-item text-light dropw1" href="carros.html"><i class="fa-solid fa-trailer"></i>  Carros de Arrastre</a></li>
+                    <li><a class="dropdown-item text-light dropw1" href="enganche.html"><i class="fa-solid fa-bore-hole"></i>  Enganches</a></li>
+                    <li><a class="dropdown-item text-light dropw1" href="estructuras.html"><i class="fa-solid fa-truck-ramp-box"></i>  Estructuras</a></li>
+                    <li><a class="dropdown-item text-light dropw1" href="accesorios.html"><i class="fa-solid fa-screwdriver-wrench"></i>  Accesorios</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -65,6 +67,7 @@
     
     <!--Carrusel-->
     <section class="carrusel"  >
+      <div class="container">
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade g-3" data-bs-ride="carousel">
             <div class="carousel-indicators" >
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -74,7 +77,7 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="2500">
-                <img src="images/logo-chico3.jpg" class="mx-md-auto d-block w-100"  alt="logo"> 
+                <img src="images/logo-chico4.jpg" class="mx-md-auto d-block w-100"  alt="logo"> 
                 <!-- <div class="carousel-caption d-none d-md-block">
                   <h5>First slide label</h5>
                   <p>Some representative placeholder content for the first slide.</p>
@@ -88,14 +91,14 @@
                 </div> -->
               </div>
               <div class="carousel-item">
-                <img src="images/carros/Enganches/photo_47_2023-07-12_01-38-05.jpg" class=" mx-md-auto d-block w-100" alt="carro">
+                <img src="images/carros/Enganches/photo_27_2023-07-12_01-38-05.jpg" class="mx-md-auto d-block w-100" alt="carro">
                 <!-- <div class="carousel-caption d-none d-md-block">
                   <h5>Third slide label</h5>
                   <p>Some representative placeholder content for the third slide.</p>
                 </div> -->
               </div>
               <div class="carousel-item">
-                <img src="images/carros/Carros/photo_41_2023-07-12_01-38-05.jpg" class=" mx-md-auto d-block w-100" alt="carro">
+                <img src="images/carros/Carros/photo_41_2023-07-12_01-38-05.jpg" class="mx-md-auto d-block w-100" alt="carro">
                 <!-- <div class="carousel-caption d-none d-md-block">
                   <h5>Third slide label</h5>
                   <p>Some representative placeholder content for the third slide.</p>
@@ -111,6 +114,7 @@
               <span class="visually-hidden">Siguiente</span>
             </button>
           </div>
+        </div>
     </section>
     
     <!--Nosotros-->

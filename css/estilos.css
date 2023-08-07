@@ -6,20 +6,85 @@
    user-select: none; 
 }
 
- 
-body {
-   /* padding-top: 5px; */
+/*botón navbar*/
+.navbar-toggler {
+   width: 20px;
+   height: 20px;
+   position: relative;
+   transition: .5s ease-in-out;
 }
-.navbar {
-   padding-top: 0px;
-}
-.navbar-brand {
-   font-weight: bold;
-   font-size: 1.5rem;
+/*eliminar barra toggler*/
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+   outline: none;
+   box-shadow: none;
+   border: 0;
 }
 
+.navbar-toggler span {
+   margin: 0;
+   border: 0;
+}
+
+/*creando botón Toggler*/
+.toggler-icon {
+   display: block;
+   position: absolute;
+   height: 3px;
+   width: 100%;
+   background: #d3531a; 
+   border-radius: 1px;
+   opacity: 1;
+   left: 0;
+   transform: rotate(0deg);
+   transition: .25s ease-in-out;
+}
+
+/*separando barras*/
+.middle-bar {
+   margin-top: 0px;
+}
+/*cuando hago click en la barra que sucederá*/
+.navbar-toggler .top-bar {
+   margin-top: 0px;
+   transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+   opacity: 0;
+   filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar {
+   margin-top: 0px;
+   transform: rotate(-135deg);
+}
+
+/* Cuando la hago click en la barra y esta colapsada */
+.navbar-toggler.collapsed .top-bar {
+   margin-top: -20px;
+   transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+   margin-top: 20px;
+   transform: rotate(0deg);
+}
+
+
+/*html*/
 header  {
-   background: black;
+   background-image: radial-gradient( 
+      circle 815px at 23.4% -21.8%,  
+   rgba(9,29,85,1) 0.2%,
+    rgba(0,0,0,1) 100.2% );
+   /* background: black; */
 }
 
 body {
@@ -30,10 +95,15 @@ footer {
    background: black;
 }
 
-/*index*/
+/*navbar*/
 
 .navbar {
-   transition: all 0.5s;
+   padding-top: 0px;
+   transition: all .5s ease-in-out;
+}
+.navbar-brand {
+   font-weight: bold;
+   font-size: 1.5rem;
 }
 
 .navbar .container-fluid {
@@ -46,7 +116,7 @@ footer {
 } 
 
 .nav-link {
-   transition: all 0.45s;
+   transition: all .45s ease-in-out;
 }
 
 .nav-link:hover{
@@ -54,13 +124,14 @@ footer {
 }
 
 .dropdown-item {
-   transition: all 0.45s;
+   transition: all .45s ease-in-out;
 }
 
 .dropdown-item:hover{
    transform: scale(1.1);
    border-radius: 10px;
 }
+
 
 /* nav {
    background-color: rgba(0, 0, 0); 
@@ -79,6 +150,19 @@ footer {
    color: black;
 }*/
 
+/*Carrusel*/
+
+.carrusel .container {
+   margin-top: 20px!important;
+   /* margin-left: auto!important ;
+   margin-right: auto!important ; */
+   
+}
+
+.carousel-item img{
+   width: 75%;
+   border-radius: 5px;
+}
 
 /*nosotros*/
 .nosotros {
@@ -103,16 +187,11 @@ footer {
    width: 90%;
 }
 
-
-
 /*servicios*/
 .card {
    background: #000;
-   transition: all 0.45s;
+   transition: all .45s ease-in-out;
 }
-/* .card:hover {
-   transform: scale(1.15);
-} */
 
 .card-body {
    height: fit-content!important;
@@ -212,13 +291,16 @@ footer {
 }
 
 #galeria img {
+   
+   
    width: 100%;
    height: 300px;
-   transition: all 0.4s;
+   transition: all .4s ease-in-out;
    }
 
 #galeria img:hover {
-   border: 5px solid #f7f7f7;
+   
+   /* border: 5px solid #f7f7f7; */
    transform: scale(1.1);
 }
 /*galería de fotos*/
